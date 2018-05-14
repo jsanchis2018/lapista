@@ -1,0 +1,78 @@
+#menunav {
+  z-index: 1;
+  background-color: #00897b;
+  width: 75%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  display: block
+}
+
+a:link {
+  text-decoration:none;
+  color: white;
+}
+a:visited {
+  text-decoration:none;
+  color: white;
+}
+a:hover {
+  text-decoration:none;
+  color: white;
+}
+
+li {
+  list-style:none;
+}
+
+#categories {
+  float: left;
+  margin-top: 15px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+}
+
+#perfil {
+  float: left;
+  width: 90%;
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+#perfil img{
+  float: left;
+  margin-right: 10px;
+}
+
+#perfil p{
+  padding-top: 20px;
+}
+
+#cross {
+  float: left;
+  display: inline;
+  padding-left: 10px;
+  width: 15%;
+}
+
+#logomenu {
+  float: right;
+  display: inline;
+  text-align: right;
+  padding-right: 35%;
+  padding-top: 20px;
+  width: 20%;
+  height: 60px;
+
+
+}
+
+#cross img {
+  margin-top: 20px;
+  float: left;
+  display: inline;
+  padding-left: 3%;
+}

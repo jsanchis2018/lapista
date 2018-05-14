@@ -1,0 +1,160 @@
+body {
+  background-color: darkgray;
+  font-size: 1.2em;
+  font-family: Montserrat-light, Arial;
+  color: white;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url('../fonts/Montserrat-Light.ttf')
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/Montserrat-bold.ttf')
+}
+
+p{
+	font-family: Montserrat-light;
+  margin-bottom: 10%;
+}
+
+b {
+  font-family: Montserrat-bold;
+}
+
+#container {
+  background-image: url(../img/courtbackground.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+
+.inputado {
+  border: 0;
+  padding: 4px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  color: white;
+  width: 250px;
+}
+
+#logoin {
+  padding-top: 25%;
+  padding-bottom: 30%;
+  width: 100%
+}
+
+#logocenter {
+  width: 75px;;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#loginformcontainer {
+  padding-top: 5%;
+  padding-bottom: 15%;
+  width: 100%;
+
+}
+
+#loginforminside {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+petit {
+  font-size: 0.8em;
+  color: #a2a1b8;
+}
+
+#backbutton {
+  padding: 20px;
+}
+
+input {
+  margin-top: 12px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+#botoinicia {
+  background-color: #00897b;
+  border-radius: 30px;
+  height: 30px;
+  width: 250px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+
+#registrat {
+  height: 40px;
+  width: 350px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+a.registrat:link {
+  text-decoration:none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+a.registrat:visited {
+  text-decoration:none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+a.registrat:hover {
+  text-decoration:none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+a.inicia:link {
+  text-decoration:none;
+  color: white;
+  font-size: 0.8em;
+}
+a.inicia:visited {
+  text-decoration:none;
+  color: white;
+  font-size: 0.8em;
+}
+a.inicia:hover {
+  text-decoration:none;
+  color: white;
+  font-size: 0.8em;
+}
+
+li {
+  list-style:none;
+}

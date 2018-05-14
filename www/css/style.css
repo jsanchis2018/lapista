@@ -1,0 +1,32 @@
+body {
+  background-color: red;
+  font-size: 1.2em;
+  font-family: Arial;
+  color: white;
+  margin-top: 80px;
+}
+
+#barra {
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: yellowgreen;
+}
+
+#welcome {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 200px;
+}
+
+span {
+  display: block;
+  width: 45%;
+  float: left;
+  margin: 10px;
+  background-color: pink;
+}

@@ -1,0 +1,80 @@
+body {
+  background-color: #00897b;
+  font-size: 1.2em;
+  font-family: Arial;
+  color: white;
+  margin-top: 80px;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url('../fonts/Montserrat-Light.ttf')
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/Montserrat-bold.ttf')
+}
+
+p{
+	font-family: Montserrat-light;
+}
+
+b {
+  font-family: Montserrat-bold;
+}
+
+#barra {
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #00897b;
+}
+
+#menubutton {
+  margin-top: 11px;
+  float: left;
+  padding-left: 3%;
+  width: 30%
+
+}
+
+#logonamed {
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+  width: 40%
+}
+
+#searchbutton {
+  margin-top: 15px;
+  float: right;
+  padding-right: 3%;
+  text-align: right;
+  width: 24%
+}
+
+#welcome {
+  margin-top: 140px;
+  padding-left: 0 auto;
+  padding-right: 0 auto;
+  background-color: #00897b;
+}
+
+span {
+  display: block;
+  width: 45%;
+  float: left;
+  margin: 10px;
+  background-color: pink;
+}
